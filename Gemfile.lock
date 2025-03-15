@@ -98,12 +98,16 @@ GEM
     crass (1.0.6)
     cssbundling-rails (1.4.2)
       railties (>= 6.0.0)
+    csv (3.3.2)
     date (3.4.1)
     debug (1.10.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
     drb (2.2.1)
     erubi (1.13.1)
+    geocoder (1.8.5)
+      base64 (>= 0.1.0)
+      csv (>= 3.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -324,6 +328,7 @@ DEPENDENCIES
   capybara
   cssbundling-rails
   debug
+  geocoder
   jbuilder
   jsbundling-rails
   pg (~> 1.1)

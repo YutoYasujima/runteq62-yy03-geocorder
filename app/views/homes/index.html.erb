@@ -1,0 +1,8 @@
+<div>
+  <p>ジオコーディング： <%= @geocoding.first.coordinates %></p>
+  <p>リバースジオコーディング： <%= @reverse.first.address %></p>
+  <p>
+    IPアドレス： 座標：<%= @ip_address.first.coordinates %>,
+    国：<%= @ip_address.first.country %>
+  </p>
+</div>
