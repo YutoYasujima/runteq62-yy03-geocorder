@@ -1,0 +1,5 @@
+<div>アドレス：<%= @spot.address %></div>
+<div>2点間の距離：<%= @spot.distance_to([35.8572924, 139.4132001], :km)%>km</div>
+<div>オブジェクトから点への方角(度)：<%= @spot.bearing_to([35.8572924, 139.4132001])%></div>
+<div>オブジェクトから点への方角(方位)：<%= Geocoder::Calculations.compass_point(@spot.bearing_to([35.8572924, 139.4132001]))%></div>
+<%= link_to 'spot', spots_path %>
