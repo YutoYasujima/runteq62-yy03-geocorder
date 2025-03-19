@@ -43,6 +43,8 @@ group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
 
+  gem "pry-byebug"
+
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
@@ -59,3 +61,4 @@ group :test do
 end
 
 gem "tailwindcss-rails", "~> 4.1"
+gem "geocoder"
